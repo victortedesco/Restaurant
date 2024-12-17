@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 1em 1em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.logo-header {
+  max-height: 4em;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  font-size: large;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  gap: 1em;
+}
+
+.info a {
+  color: white;
+}

@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cheese Burger",
+      "price": 18.49,
+      "discount": 0,
+      "isAvailable": true,
+      "imageUrl": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cheese Bacon",
+      "price": 22.49,
+      "discount": 10,
+      "isAvailable": true,
+      "imageUrl": "https://storage.googleapis.com/domain-images/019b3f93-52ea-447b-995d-bc9535bf3b1d/products/gallery_a19be841-cfa9-4a49-a066-76c34182c5b3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "French Fries | Small",
+      "price": 10.49,
+      "discount": 15,
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnHQEnD5OZJLIdUGCb31Eod-6MLMHIB_yLg&s"
+    },
+    {
+      "id": 4,
+      "name": "French Fries | Large",
+      "price": 20.99,
+      "discount": 10,
+      "isAvailable": false,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnHQEnD5OZJLIdUGCb31Eod-6MLMHIB_yLg&s"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Nuggets | 6pcs",
+      "price": 12.99,
+      "discount": 5,
+      "isAvailable": true,
+      "imageUrl": "https://www.cookwithnabeela.com/wp-content/uploads/2024/02/ChickenNuggets.webp"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Nuggets | 12pcs",
+      "price": 24.99,
+      "discount": 8,
+      "isAvailable": true,
+      "imageUrl": "https://www.cookwithnabeela.com/wp-content/uploads/2024/02/ChickenNuggets.webp"
+    },
+    {
+      "id": 7,
+      "name": "Vanilla Milkshake",
+      "price": 14.49,
+      "discount": 0,
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhcmMcoumF6yh2hqgKd6Px_2gIl3516OmTaw&s"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Milkshake",
+      "price": 14.49,
+      "discount": 0,
+      "isAvailable": false,
+      "imageUrl": "https://thehomeintent.com/wp-content/uploads/2023/02/Chocolate-Milkshake-without-Ice-Cream-Healthy-Recipe-featured-720x720.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Coca-Cola | Can",
+      "price": 5.49,
+      "discount": 0,
+      "isAvailable": true,
+      "imageUrl": "https://m.media-amazon.com/images/I/71YNw+XLL0L.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sprite | Can",
+      "price": 5.49,
+      "discount": 0,
+      "isAvailable": false,
+      "imageUrl": "https://www.ubuy.com.br/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNDFnY20ta0ZjZUwuX1NTNDAwXy5qcGc.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Caesar Salad",
+      "price": 15.99,
+      "discount": 10,
+      "isAvailable": true,
+      "imageUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-07-caesar-salad%2Fcaesar-salad-064"
+    },
+    {
+      "id": 12,
+      "name": "Grilled Chicken Salad",
+      "price": 17.99,
+      "discount": 8,
+      "isAvailable": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRY4xmFUW2DfyUW1xeZZcUdqD7c-X5HAvEtw&s"
+    },
+    {
+      "id": 13,
+      "name": "Apple Pie",
+      "price": 6.99,
+      "discount": 5,
+      "isAvailable": false,
+      "imageUrl": "https://static01.nyt.com/images/2023/11/09/multimedia/09piesrex3-apple/09piesrex4-lemon-cqtk-square640.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Cake",
+      "price": 8.99,
+      "discount": 10,
+      "isAvailable": true,
+      "imageUrl": "https://scientificallysweet.com/wp-content/uploads/2020/09/IMG_4117-feature.jpg"
+    }
+  ]
+}

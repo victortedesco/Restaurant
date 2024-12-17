@@ -1,0 +1,32 @@
+img {
+  max-height: 16em;
+  height: 100%;
+}
+
+button {
+  padding: 0.5em 2em;
+  font-size: large;
+  border: none;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1em;
+}
+
+.logo p {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}

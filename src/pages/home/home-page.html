@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Restaurant! | Food Menu</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="src/assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="src/shared/header/header.css" rel="stylesheet">
+    <link href="src/shared/footer/footer.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="src/pages/home/home-page.css" rel="stylesheet" />
+    <script type="module" src="src/pages/home/home-page.js" defer> </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("src/shared/header/header.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("header-container").innerHTML = data;
+                });
+            fetch("src/shared/footer/footer.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("footer-container").innerHTML = data;
+                })
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <main>
+        <div id="product-list"></div>
+    </main>
+    <div id="footer-container"></div>
+</body>
+
+</html>

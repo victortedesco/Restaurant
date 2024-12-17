@@ -1,0 +1,30 @@
+footer {
+  width: 100%;
+  background-color: cadetblue;
+  padding: 2em;
+  font-size: small;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px -10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigate-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  footer {
+    font-size: medium;
+  }
+}
